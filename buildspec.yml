@@ -3,7 +3,8 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo "Building index.html"
+      - echo "Building artifacts"
 artifacts:
   files:
-    - index.html
+    - appspec.yml  # appspec.yml 파일을 포함합니다.
+    - index.html   # 배포할 파일들

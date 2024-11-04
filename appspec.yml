@@ -1,0 +1,5 @@
+version: 0.0
+os: linux
+files:
+  - source: /index.html
+    destination: /var/www/html  # 이 경로에 배포하며 기존 파일이 덮어써집니다
